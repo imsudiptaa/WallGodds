@@ -1,22 +1,27 @@
-# DESIGN.md  [working in it]
+# WallGodds Design Documentation
 
-## 🎨 Design Overview  
-This document outlines the design principles, guidelines, and resources for **WallGodds**. It will be continuously updated as the project progresses.  
+## 📝 Have Suggestions?
+
+We value your input! If you have ideas or feedback about the design, feel free to share them in the [Discussions](https://github.com/Parnab03/WallGodds/discussions).
 
 ---
 
-## 📂 Design Resources  
+## 🎨 Designer? Contribute to Our Design
 
-### 1. **Figma File**  
-The design mockups for WallGodds are created using Figma. Access the file using the link below:  
+If you're a designer interested in contributing directly to our Figma design file, we’d love to have your expertise! Please fill out this [form](soon) to request access. Once approved, you’ll be granted edit permissions to collaborate effectively.
+
+---
+
+## 📂 Design Resources    
+Our design work is centralized in a **Figma file**, which is constantly updated as the project progresses. This file includes wireframes, prototypes, and finalized design assets.  
+
 👉 [WallGodds Figma Design](#)  
-(*Replace `#` with the actual Figma file URL. Ensure it has appropriate permissions for collaborators.*)
 
 ---
 
 ## 🛠️ Design Components  
 
-### 2. **Color Palette**  
+###  **Color Palette**  
 The primary color palette for the website:  
 | **Color**         | **Hex Code** | **Usage**             |  
 |--------------------|--------------|-----------------------|  
@@ -25,7 +30,7 @@ The primary color palette for the website:
 | Accent (Orange)    | #FFA500      | Highlights, CTA       |  
 | Neutral (Gray)     | #F5F5F5      | Secondary backgrounds |  
 
-### 3. **Typography**  
+###  **Typography**  
 - **Primary Font**: Poppins (for headers and CTA)  
 - **Secondary Font**: Roboto (for body text)  
 
@@ -33,10 +38,10 @@ The primary color palette for the website:
 
 ## 📐 Layouts and Breakpoints  
 
-### 4. **Grid System**  
+###  **Grid System**  
 WallGodds uses a 12-column grid system for layouts to ensure responsiveness.  
 
-### 5. **Breakpoints**  
+###  **Breakpoints**  
 The website is designed to support the following screen sizes:  
 - Mobile: ≤ 768px  
 - Tablet: 769px–1024px  
@@ -46,7 +51,7 @@ The website is designed to support the following screen sizes:
 
 ## 📑 Pages and Key Elements  
 
-### 6. **Page-wise Design Documentation**  
+###  **Page-wise Design Documentation**  
 
 #### Home Page  
 - **Hero Section**: A clean introduction with a high-quality wallpaper showcase.  
@@ -66,12 +71,12 @@ The website is designed to support the following screen sizes:
 
 ## 🔄 Updates and Contributions  
 
-### 7. **How to Contribute to Design**  
+###  **How to Contribute to Design**  
 - Any changes to the design should be approved via pull requests.  
 - Attach screenshots or mockups for proposed changes in your PR description.  
 - Ensure updates align with the Figma file and existing guidelines.  
 
-### 8. **Version Control**  
+###  **Version Control**  
 To track changes in design, use the following format in PRs:  
 - **Title**: `Update: Design.md for [Component/Page]`  
 - **Description**: Brief summary of changes.  
