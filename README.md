@@ -23,7 +23,7 @@ This stack ensures a seamless, scalable, and highly performant platform for user
 ## 🎨 Figma Design File  
 
 We’ve meticulously crafted a design prototype to guide the development process.  
-- **View-Only Link**: [WallGodds Figma File](YOUR_FIGMA_VIEW_ONLY_LINK)  
+- **View-Only Link**: [WallGodds Figma File](https://www.figma.com/design/rsOU06uLMMhLJOgw7SUhWt/Wallgodds?node-id=0-1&t=qHqKU2yChHBLEmXg-1)  
 
 ### For Designers:  
 If you’re a designer and want to contribute directly:  
