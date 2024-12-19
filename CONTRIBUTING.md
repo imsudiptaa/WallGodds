@@ -72,7 +72,7 @@ Welcome to **WallGodds**, a community-driven platform for high-quality, categori
 ---
 
 ## 📂 Figma File for Designers
-We’ve uploaded the design prototype for WallGodds on Figma to help developers align with the design team. Access the Figma file here: [WallGodds Design on Figma](#).  
+We’ve uploaded the design prototype for WallGodds on Figma to help developers align with the design team. Access the Figma file here: [WallGodds Design on Figma](DESIGN.md).  
 
 ---
 
