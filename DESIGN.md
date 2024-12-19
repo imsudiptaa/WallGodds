@@ -25,27 +25,46 @@ Our design work is centralized in a **Figma file**, which is constantly updated 
 The primary color palette for the website:  
 | **Color**         | **Hex Code** | **Usage**             |  
 |--------------------|--------------|-----------------------|  
-| Primary (Blue)     | #1E90FF      | Buttons, links, headers |  
-| Secondary (White)  | #FFFFFF      | Backgrounds, text     |  
-| Accent (Orange)    | #FFA500      | Highlights, CTA       |  
-| Neutral (Gray)     | #F5F5F5      | Secondary backgrounds |  
+| Primary (White)                            | #FFFFFF     | Background |  
+| Secondary (Black)                          | #000000     | Text     |  
+| SidebarGradient (1st Color)                | #FDD7DE     | Background |  
+| SidebarGradient (2nd Color)                | #E6E1FD     | Secondary backgrounds |  
+| Main Primary BG (GRADIENT 1st color)       | #7056F5     | Background | 
+| Main Primary 1BG (GRADIENT 2nd color)      | #ABB3FE     | Background | 
+| Main Primary 2BG (GRADIENT 1st color)      | #F2AB93     | Background | 
+| Main Primary 2BG (GRADIENT 2nd color)      | #F76582     | Background | 
+| Nav Bar GRADIENT (1st color)               | #008FFF     | Nav Bar border |
+| Nav Bar GRADIENT (2nd color)               | #FF9D00     | Nav Bar border |
+| Nav Bar GRADIENT (3rd color)               | #D90000     | Nav Bar border |
+| Nav Bar GRADIENT (4th color)               | #970088     | Nav Bar border |
+| Button  (Solid)                            | #FF0000     | Like Button | 
+| Button  (Solid)                            | #808080     | Download Button | 
+
+
+
+
+
 
 ###  **Typography**  
-- **Primary Font**: Poppins (for headers and CTA)  
-- **Secondary Font**: Roboto (for body text)  
+- Logo Gruppo Font Size - 41.14 
+- Comfortaa Regular (Nav bar ---Font size 23.46)
+- Comfortaa Regular (Side bar ---Font size 23.46)
+- Comfortaa Regular (user name and download button) ---size 19.3  
 
 ---
 
 ## 📐 Layouts and Breakpoints  
+- Width  - 1920
+- Height - ∞ 
 
 ###  **Grid System**  
-WallGodds uses a 12-column grid system for layouts to ensure responsiveness.  
+WallGodds uses a ∞ column grid system for layouts to ensure responsiveness.  
 
 ###  **Breakpoints**  
 The website is designed to support the following screen sizes:  
-- Mobile: ≤ 768px  
-- Tablet: 769px–1024px  
-- Desktop: ≥ 1025px  
+- Mobile:    Coming Soon
+- Tablet:    Coming Soon
+- Desktop: ≥ 1920px  
 
 ---
 
@@ -53,33 +72,26 @@ The website is designed to support the following screen sizes:
 
 ###  **Page-wise Design Documentation**  
 
-#### Home Page  
-- **Hero Section**: A clean introduction with a high-quality wallpaper showcase.  
-- **Categories Section**: Highlight device types (Mobile, Tablet, Desktop).  
-- **Call-to-Action (CTA)**: Encourage users to explore or upload wallpapers.  
+#### Gallery Page  
+- **Nav Bar**: Home,
+               Galary,
+               Upload,
+               About Us,
+               Search Bar,
+               Profile Icon
+- **Side Bar**: Highlight device types (Mobile, Tablet, Desktop).  
+- **Scrollable Section**: Encourage users to explore wallpapers.  
 
-#### Upload Page  
+**MORE PAGES COMING SOON**
+
+<!-- #### Upload Page  
 - **Form Layout**:  
   - Input fields for wallpaper title, description, category, and upload button.  
   - Drag-and-drop functionality for ease of use.  
 
 #### Profile Page  
 - User profile details, uploaded wallpapers, and edit options.  
-- Section to track wallpaper performance (e.g., downloads, views).  
-
----
-
-## 🔄 Updates and Contributions  
-
-###  **How to Contribute to Design**  
-- Any changes to the design should be approved via pull requests.  
-- Attach screenshots or mockups for proposed changes in your PR description.  
-- Ensure updates align with the Figma file and existing guidelines.  
-
-###  **Version Control**  
-To track changes in design, use the following format in PRs:  
-- **Title**: `Update: Design.md for [Component/Page]`  
-- **Description**: Brief summary of changes.  
+- Section to track wallpaper performance (e.g., downloads, views). --> 
 
 ---
 
