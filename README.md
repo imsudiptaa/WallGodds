@@ -28,7 +28,7 @@ We’ve meticulously crafted a design prototype to guide the development process
 ### For Designers:  
 If you’re a designer and want to contribute directly:  
 1. Check out the design elements and guidelines in the Figma file.  
-2. **Interested in collaborating directly on the Figma file?** Fill out this form: [Contribute to Design](YOUR_FORM_LINK).  
+2. **Interested in collaborating directly on the Figma file?** Fill out this form: [Contribute to Design](https://docs.google.com/forms/d/e/1FAIpQLScDW1v7DJCkx_gGDvuMFirS6WkeRgmGGQJ9T_8UYuBHszmqFg/viewform?usp=sharing).  
 
 The design file includes:  
 - A minimalist, user-friendly interface.  
