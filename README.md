@@ -1,4 +1,10 @@
-# 🌟 WallGodds  
+# 🖼 WallGodds: Minimal by Design, Inspired by You
+
+<div align="center" width ="100%">
+  <img src="https://github.com/Parnab03/WallGodds/blob/main/WallGodds.png" alt="WallGodds Logo" />
+</div>
+
+---
 
 **WallGodds** is a open-source wallpaper platform tailored for individuals who love to personalize their devices. Whether you're looking for the perfect wallpaper for your mobile, tablet, or desktop, or you're a designer wanting to share your creativity with the world, WallGodds has you covered.
 
