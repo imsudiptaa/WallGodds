@@ -8,7 +8,7 @@ We value your input! If you have ideas or feedback about the design, feel free t
 
 ## 🎨 Designer? Contribute to Our Design
 
-If you're a designer interested in contributing directly to our Figma design file, we’d love to have your expertise! Please fill out this [form](soon) to request access. Once approved, you’ll be granted edit permissions to collaborate effectively.
+If you're a designer interested in contributing directly to our Figma design file, we’d love to have your expertise! Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScDW1v7DJCkx_gGDvuMFirS6WkeRgmGGQJ9T_8UYuBHszmqFg/viewform?usp=sharing) to request access. Once approved, you’ll be granted edit permissions to collaborate effectively.
 
 ---
 
