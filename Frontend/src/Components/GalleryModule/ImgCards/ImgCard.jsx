@@ -1,14 +1,13 @@
-import Img from "../../../assets/img_1.png";
 import Save from "/Save.svg";
 import Heart from "/Heart.svg";
 import DownloadBtn from "/DownloadButton.svg";
 import Style from "./ImgCard.module.css";
 
-const ImgCard = () => {
+const ImgCard = ({ imageSrc }) => {
     return (
         <div className={Style.imgCard}>
             <div className={Style.imageContainer}>
-                <img src={Img} alt="img" className={Style.image} />
+                <img src={imageSrc} alt="img" className={Style.image} />
             </div>
             <div className={Style.bottomBar}>
                 <div className={Style.icons}>
