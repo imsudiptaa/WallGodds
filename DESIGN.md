@@ -15,7 +15,7 @@ If you're a designer interested in contributing directly to our Figma design fil
 ## 📂 Design Resources    
 Our design work is centralized in a **Figma file**, which is constantly updated as the project progresses. This file includes wireframes, prototypes, and finalized design assets.  
 
-👉 [WallGodds Figma Design](#)  
+👉 [WallGodds Figma Design](https://www.figma.com/design/rsOU06uLMMhLJOgw7SUhWt/Wallgodds?node-id=0-1&t=qHqKU2yChHBLEmXg-1)  
 
 ---
 
