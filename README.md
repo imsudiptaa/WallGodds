@@ -118,6 +118,8 @@ We welcome contributions from developers, designers, and tech enthusiasts! Follo
 
 If you're a designer, explore the [DESIGN.md](DESIGN.md) for design guidelines and collaboration details.  
 
+If you're excited to contribute wallpapers to WallGodds, head over to the [WALLPAPER.md](https://github.com/Parnab03/WallGodds/blob/main/Wallpapers/WALLPAPER.md) file. It contains a step-by-step guide on how to create, name, and submit your designs. Dive in and let your creativity shine! 🖼️
+
 ---
 
 ## 🎨 Design Guidelines  
