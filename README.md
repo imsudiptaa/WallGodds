@@ -8,6 +8,8 @@
 
 **WallGodds** is a open-source wallpaper platform tailored for individuals who love to personalize their devices. Whether you're looking for the perfect wallpaper for your mobile, tablet, or desktop, or you're a designer wanting to share your creativity with the world, WallGodds has you covered.
 
+>  <a href="https://discord.gg/kTQ5KWANp8" ></a><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="16px" align-items="center"> **Join our [Discord Community](https://discord.gg/kTQ5KWANp8) for more updates.**</a>
+
 ---
 
 ## 🔧 Tech Stack  
