@@ -30,9 +30,9 @@ body:
       options:
         - label: "I have searched existing issues to ensure this is not a duplicate."
           required: true
-        - label: "I have read and followed the [Contributing Guidelines](CONTRIBUTING.md)."
+        - label: "I have read and followed the [Contributing Guidelines](https://github.com/Parnab03/WallGodds/blob/main/CONTRIBUTING.md)."
           required: true
-        - label: "I have read and agree to the [Code of Conduct](CODE_OF_CONDUCT.md)."
+        - label: "I have read and agree to the [Code of Conduct](https://github.com/Parnab03/WallGodds/blob/main/CODE_OF_CONDUCT.md)."
           required: true
         - label: "I am willing to work on this issue."
           required: false
