@@ -12,6 +12,13 @@
 
 ---
 
+# 🌟 Open Source Program
+
+| <img src="https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/ee8d75f60f0a4acf85238eabdea1bad3/assets/logo/273.png" alt="WOC 4.0 Logo" width="200px"> | [**Winter of Code 4.0**](https://winterofcode.tech/) | It is a 30-day open-source program by GDG On Campus IIIT Kalyani. Modeled after GSoC, it provides a platform for developers of all levels to contribute to impactful projects, enhance skills, and join a global open-source community. |
+|--------------------------------------------|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+---
+
 ## 🔧 Tech Stack  
 
 - **Frontend**: React (with Vite for faster builds)  
