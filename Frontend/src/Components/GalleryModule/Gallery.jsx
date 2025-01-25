@@ -1,8 +1,8 @@
-import ImgCard from "./ImgCards/ImgCard";
-import img1 from "../../assets/img_1.png";
-import img2 from "../../assets/img_2.png";
-import img3 from "../../assets/img_3.png";
-import img4 from "../../assets/img_4.png";
+import ImgCard from "./DesktopSection/ImgCards/ImgCard";
+import img1 from "./DesktopSection/DesktopAssets/img_1.png";
+import img2 from "./DesktopSection/DesktopAssets/img_2.png";
+import img3 from "./DesktopSection/DesktopAssets/img_3.png";
+import img4 from "./DesktopSection/DesktopAssets/img_4.png";
 import Styles from "./Gallery.module.css";
 
 const Gallery = () => {
