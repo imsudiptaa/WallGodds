@@ -3,7 +3,7 @@ import Logo from "/Logo.svg";
 import Mobile from "./img/Mobile.svg";
 import Tablet from "./img/Tablet.svg";
 import Desktop from "./img/Desktop.svg";
-import NavBar from "../NavBarModule/NavBar";
+import NavBar from "../../CommonModule/NavBarModule/NavBar";
 import styles from "./SideBar.module.css";
 
 const SideBar = () => {

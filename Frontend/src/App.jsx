@@ -1,4 +1,5 @@
-import SideBarWithNav from "./Components/CommonModule/SideBarModule/SideBar";
+// import SideBarWithNav from "./Components/CommonModule/SideBarModule/SideBar";
+import SideBarWithNav from "./Components/GalleryModule/SideBarModule/SideBar";
 import Gallery from "./Components/GalleryModule/Gallery";
 import "./App.css";
 
