@@ -1,0 +1,6 @@
+.imgCards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+    gap: 3.5%;
+}

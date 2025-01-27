@@ -1,29 +1,31 @@
 import React from "react";
-import Logo from "/Logo.svg";
+import { Link } from "react-router-dom"; // For navigation
 import Mobile from "./img/Mobile.svg";
 import Tablet from "./img/Tablet.svg";
 import Desktop from "./img/Desktop.svg";
-import NavBar from "../NavBarModule/NavBar";
-import styles from "./SideBar.module.css";
+import styles from "./SideBar.module.css"; // Make sure to use the correct path for your styles
 
 const SideBar = () => {
     return (
         <div className={styles.sidebar}>
-            <div className={styles.navWithLogo}>
-                <img className={styles.logo} src={Logo} alt="Logo" />
-                <NavBar></NavBar>
-            </div>
             <div className={styles.mainContainer}>
                 <div className={styles.listContainer}>
                     <ul className={styles.verticalList}>
+                        {/* Link to respective gallery pages */}
                         <li>
-                            <img src={Mobile} alt="Mobile" />
+                            <Link to="/gallery/mobile">
+                                <img src={Mobile} alt="Mobile" />
+                            </Link>
                         </li>
                         <li>
-                            <img src={Tablet} alt="Tablet" />
+                            <Link to="/gallery/tablet">
+                                <img src={Tablet} alt="Tablet" />
+                            </Link>
                         </li>
                         <li>
-                            <img src={Desktop} alt="Desktop" />
+                            <Link to="/gallery/desktop">
+                                <img src={Desktop} alt="Desktop" />
+                            </Link>
                         </li>
                     </ul>
                 </div>
