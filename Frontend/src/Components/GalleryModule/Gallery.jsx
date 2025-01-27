@@ -17,9 +17,7 @@ const Gallery = () => {
         <div>
             <NavBar />
             <div className={Styles.mainContent}>
-                <SideBar /> {/* Sidebar for navigation */}
                 <div className={Styles.gallery}>
-                    {/* Set up routes for mobile, tablet, desktop */}
                     <Routes>
                         <Route path="mobile" element={<Mobile />} />
                         <Route path="tablet" element={<Tablet />} />
@@ -28,7 +26,6 @@ const Gallery = () => {
                             path=""
                             element={
                                 <div>
-                                    {/* Default Gallery View */}
                                     <div className={Styles.imgCards}>
                                         <ImgCard imageSrc={img1} />
                                         <ImgCard imageSrc={img2} />
