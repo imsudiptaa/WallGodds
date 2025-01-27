@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+=======
+// import SideBarWithNav from "./Components/CommonModule/SideBarModule/SideBar";
+import SideBarWithNav from "./Components/GalleryModule/SideBarModule/SideBar";
+>>>>>>> ef04ae1d0e872aa41412e2bee78c6217ccf8cad0
 import Gallery from "./Components/GalleryModule/Gallery";
 import "./App.css";
 import Home from "./Components/HomeModule/Home";
