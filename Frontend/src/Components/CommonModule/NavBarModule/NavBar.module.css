@@ -7,9 +7,9 @@
     margin-left: 36px;
     margin-top: 10.77px;
     box-sizing: border-box;
+    /* position: sticky; */
+    top: 0;
 }
-
-
 
 .navbarWrapper {
     display: flex;
@@ -64,6 +64,31 @@
     margin: 0 55px;
     cursor: pointer;
     transition: color 0.3s;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: color 0.3s, font-weight 0.3s;
+    position: relative;
+}
+
+.menuItem.active a {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.menuItem.active a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    transition: height 0.3s;
 }
 
 .menuItem:hover {
@@ -189,4 +214,16 @@
     .searchInput {
         padding: 8px;
     }
+}
+
+.menuLink {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
 }

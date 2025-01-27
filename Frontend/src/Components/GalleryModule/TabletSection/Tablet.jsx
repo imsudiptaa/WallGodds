@@ -7,16 +7,16 @@ import Styles from "./Tablet.module.css";
 
 const Tablet = () => {
     return (
-        <div>
+        <div className={Styles.gallery}>
             <h2>Tablet Devices</h2>
-            <div className={Styles.imgCards}>
+            {/* <div className={Styles.imgCards}>
                 <ImgCard imageSrc={img1} />
                 <ImgCard imageSrc={img2} />
-            </div>
-            <div className={Styles.imgCards}>
+            </div> */}
+            {/* <div className={Styles.imgCards}>
                 <ImgCard imageSrc={img3} />
                 <ImgCard imageSrc={img4} />
-            </div>
+            </div> */}
         </div>
     );
 };

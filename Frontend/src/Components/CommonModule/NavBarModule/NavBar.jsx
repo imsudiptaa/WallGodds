@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // For routing links
+import { NavLink } from "react-router-dom"; // Use NavLink for active link handling
 import Logo from "/Logo.svg";
 import Search from "/SearchIcon.svg";
 import Profile from "/ProfileIcon.svg";
@@ -18,16 +18,44 @@ const NavBar = () => {
                     <div className={Style.navItems}>
                         <ul className={Style.menu}>
                             <li className={Style.menuItem}>
-                                <Link to="/" className={Style.menuLink}>Home</Link> {/* Home link */}
+                                <NavLink
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        isActive ? `${Style.menuLink} ${Style.active}` : Style.menuLink
+                                    }
+                                >
+                                    Home
+                                </NavLink>
                             </li>
                             <li className={Style.menuItem}>
-                                <Link to="/gallery" className={Style.menuLink}>Gallery</Link> {/* Gallery link */}
+                                <NavLink
+                                    to="/gallery"
+                                    className={({ isActive }) =>
+                                        isActive ? `${Style.menuLink} ${Style.active}` : Style.menuLink
+                                    }
+                                >
+                                    Gallery
+                                </NavLink>
                             </li>
                             <li className={Style.menuItem}>
-                                <Link to="/upload" className={Style.menuLink}>Upload</Link> {/* Upload link */}
+                                <NavLink
+                                    to="/upload"
+                                    className={({ isActive }) =>
+                                        isActive ? `${Style.menuLink} ${Style.active}` : Style.menuLink
+                                    }
+                                >
+                                    Upload
+                                </NavLink>
                             </li>
                             <li className={Style.menuItem}>
-                                <Link to="/aboutus" className={Style.menuLink}>About Us</Link> {/* About Us link */}
+                                <NavLink
+                                    to="/aboutus"
+                                    className={({ isActive }) =>
+                                        isActive ? `${Style.menuLink} ${Style.active}` : Style.menuLink
+                                    }
+                                >
+                                    About Us
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

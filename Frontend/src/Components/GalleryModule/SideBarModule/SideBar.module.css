@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    overflow-y: auto;
     /* Align items to the left */
 }
 
@@ -72,6 +73,39 @@
     line-height: normal;
     text-transform: capitalize;
     cursor: default;
+}
+
+.listItem {
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.listItem:hover {
+    transform: scale(1.05);
+}
+
+.listItem.active {
+    font-weight: bold;
+    color: black;
+    border-image: linear-gradient(45deg,
+            #ff6b6b,
+            #fbc531,
+            #4cd137,
+            #0097e6,
+            #8c7ae6) 1;
+}
+
+.listItem:hover {
+    border-image: linear-gradient(45deg,
+            #fbc531,
+            #4cd137,
+            #0097e6,
+            #8c7ae6,
+            #ff6b6b) 1;
 }
 
 @media (max-width: 768px) {

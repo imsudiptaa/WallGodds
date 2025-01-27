@@ -6,18 +6,17 @@ import img4 from "./DesktopAssets/img_4.png";
 import Styles from "./Desktop.module.css";
 const Desktop = () => {
     return (
-        <div>
+        <div className={Styles.gallery} >
             <h2>Desktop Devices</h2>
-            <div>
-                {/* Default Gallery View */}
-                <div className={Styles.imgCards}>
+            <div className={Styles.gallery}>
+                {/* <div className={Styles.imgCards}>
                     <ImgCard imageSrc={img1} />
                     <ImgCard imageSrc={img2} />
-                </div>
-                <div className={Styles.imgCards}>
+                </div> */}
+                {/* <div className={Styles.imgCards}>
                     <ImgCard imageSrc={img3} />
                     <ImgCard imageSrc={img4} />
-                </div>
+                </div> */}
             </div>
         </div>
     );

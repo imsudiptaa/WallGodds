@@ -6,16 +6,16 @@ import img3 from "./MobileAssets/mobile_wallpaper3.png"
 import img4 from "./MobileAssets/mobile_wallpaper4.png"
 const Mobile = () => {
     return (
-        <div>
+        <div className={Styles.gallery}>
             <h2>Mobile Devices</h2>
-            <div className={Styles.imgCards}>
+            {/* <div className={Styles.imgCards}>
                 <ImgCard imageSrc={img1} />
                 <ImgCard imageSrc={img2} />
-            </div>
-            <div className={Styles.imgCards}>
+            </div> */}
+            {/* <div className={Styles.imgCards}>
                 <ImgCard imageSrc={img3} />
                 <ImgCard imageSrc={img4} />
-            </div>
+            </div> */}
         </div>
     );
 };
