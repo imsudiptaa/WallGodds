@@ -1,4 +1,4 @@
-import ImgCard from "../DesktopSection/ImgCards/ImgCard";
+import ImgCard from "../DesktopSection/ImgCardsDesktop/ImgCard";
 import img1 from "./TabletAssets/tablet_wallpaper1.png"
 import img2 from "./TabletAssets/tablet_wallpaper2.png"
 import img3 from "./TabletAssets/tablet_wallpaper3.png"

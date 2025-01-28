@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // Use NavLink for active link handling
+import { NavLink } from "react-router-dom";
 import Logo from "/Logo.svg";
 import Search from "/SearchIcon.svg";
 import Profile from "/ProfileIcon.svg";

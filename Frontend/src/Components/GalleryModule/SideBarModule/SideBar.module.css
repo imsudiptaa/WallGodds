@@ -1,26 +1,24 @@
 .sidebar {
     position: sticky;
     top: 0;
-    height: 100%;
-    width: 200px;
-    /* Ensure this is appropriate for your layout */
-    padding-left: 3%;
+    height: 848px;
+    width: 210px;
+    padding-left: 45px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    overflow-y: auto;
-    /* Align items to the left */
 }
 
 .navWithLogo {
     display: flex;
     justify-content: flex-start;
-    margin-top: 5%;
+    /* margin-top: 5%; */
+
 }
 
 .mainContainer {
-    margin-top: 25px;
-    border-radius: 10px;
+    margin-top: 50px;
+    border-radius: 3.7px;
     width: 99%;
     /* opacity: 0.39; */
     /* background: linear-gradient(180deg, #e6e1fd 0%, #fdd7de 100%); */
@@ -90,35 +88,8 @@
 
 .listItem.active {
     font-weight: bold;
-    color: black;
-    border-image: linear-gradient(45deg,
-            #ff6b6b,
-            #fbc531,
-            #4cd137,
-            #0097e6,
-            #8c7ae6) 1;
-}
-
-.listItem:hover {
-    border-image: linear-gradient(45deg,
-            #fbc531,
-            #4cd137,
-            #0097e6,
-            #8c7ae6,
-            #ff6b6b) 1;
-}
-
-@media (max-width: 768px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-    }
-
-    .mainContainer {
-        width: 100%;
-    }
-
-    .verticalList li {
-        margin: 20px 0;
-    }
+    color: #000;
+    border-image: linear-gradient(45deg, #ff6b6b, #fbc531, #4cd137, #0097e6, #8c7ae6) 1;
+    transform: scale(1.1);
+    mask-composite: exclude;
 }

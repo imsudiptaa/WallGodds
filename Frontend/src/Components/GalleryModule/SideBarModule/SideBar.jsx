@@ -1,25 +1,27 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom"; // For navigation
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Mobile from "./img/Mobile.svg";
 import Tablet from "./img/Tablet.svg";
 import Desktop from "./img/Desktop.svg";
-import styles from "./SideBar.module.css"; // Correct path for styles
+import styles from "./SideBar.module.css";
 
 const SideBar = () => {
-    // State to track the active list item
-    const [activeItem, setActiveItem] = useState("");
+    const location = useLocation();
+    const [activeItem, setActiveItem] = useState(location.pathname.split("/").pop() || "desktop");
 
-    // Function to handle item click
+    // Sync activeItem with URL path
+    useEffect(() => {
+        const currentPath = location.pathname.split("/").pop() || "desktop";
+        setActiveItem(currentPath);
+    }, [location]);
+
     const handleItemClick = (item) => {
-        setActiveItem(item);
+        setActiveItem(item); // Update active state
     };
 
     return (
         <div className={styles.sidebar}>
             <div className={styles.mainContainer}>
-                <div className={styles.navWithLogo}>
-                    {/* Add your logo component here if needed */}
-                </div>
                 <div className={styles.listContainer}>
                     <ul className={styles.verticalList}>
                         <li
@@ -27,7 +29,7 @@ const SideBar = () => {
                             onClick={() => handleItemClick("mobile")}
                         >
                             <Link to="/gallery/mobile">
-                                <img src={Mobile} alt="Mobile" />
+                                <img src={Mobile || "/placeholder.svg"} alt="Mobile" />
                             </Link>
                         </li>
                         <li
@@ -35,7 +37,7 @@ const SideBar = () => {
                             onClick={() => handleItemClick("tablet")}
                         >
                             <Link to="/gallery/tablet">
-                                <img src={Tablet} alt="Tablet" />
+                                <img src={Tablet || "/placeholder.svg"} alt="Tablet" />
                             </Link>
                         </li>
                         <li
@@ -43,7 +45,7 @@ const SideBar = () => {
                             onClick={() => handleItemClick("desktop")}
                         >
                             <Link to="/gallery/desktop">
-                                <img src={Desktop} alt="Desktop" />
+                                <img src={Desktop || "/placeholder.svg"} alt="Desktop" />
                             </Link>
                         </li>
                     </ul>

@@ -4,26 +4,27 @@
     background-color: white;
     border-radius: 10px;
     width: 1531px;
+    height: 88.46px;
     margin-left: 36px;
     margin-top: 10.77px;
     box-sizing: border-box;
-    /* position: sticky; */
-    top: 0;
+
 }
 
 .navbarWrapper {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .MainContainer {
     position: relative;
-    width: 1531px;
-    height: 88.46px;
+    height: 100%;
     display: flex;
     align-items: center;
     padding: 13px 20px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .MainContainer::before {
