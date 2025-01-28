@@ -14,26 +14,25 @@ body {
 }
 
 .container {
+  position: relative;
   background-color: white;
-  height: 783px;
-  min-width: 1654px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: -21px 4px 60.7px 0px #C1C1C1;
-  margin: 0 20%;
-  overflow: hidden;
+  margin: 20px 10%;
 }
 
 .container_top {
   background-color: #008fff;
-  height: 106px;
+  height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 20px 20px 0 0;
 }
 
 .elements {
@@ -44,6 +43,10 @@ body {
   gap: 10px;
 }
 
+.elements > img {
+  width: 25px;
+}
+
 .errorCode {
   position: relative;
   text-align: center;
@@ -51,11 +54,10 @@ body {
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 86px;
-  line-height: 90.3px;
-  margin: 3% 0 4% 0;
+  font-size: 55px;
+  margin: 3% 10px 4% 10px;
   color: white;
-  text-shadow: 8px 8px black;
+  text-shadow: 5px 5px black;
   -webkit-text-stroke: 1.5px black;
 }
 
@@ -67,11 +69,10 @@ body {
   text-align: center;
   font-family: "Comfortaa", sans-serif;
   margin: 0 11%;
-  font-size: 36px;
+  font-size: 23px;
   font-weight: 700;
-  line-height: 40.14px;
-  margin: 5% 7%;
-  padding: 0 2%;
+  margin: 3% 7%;
+  padding: 0 40px;
   background: -webkit-linear-gradient(right, #FF5959, #2A00FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -81,19 +82,23 @@ body {
   background-color: #DFD1FC;
   border-radius: 10px;
   border: 1px solid #000000;
-  margin: 2% 0 0 0;
-  height: 120px;
-  width: 803px;
+  margin: 2% 10px 0 10px;
+  padding: 1.5% 2%;
   display: flex;
   align-items: center;
   cursor: pointer;
+  margin-bottom: 5%;
 }
 
 .homeMessage {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.homeMessage > img {
+  width: 40px;
 }
 
 .homeMessage > h1 {
@@ -102,12 +107,62 @@ body {
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 55px;
+  font-size: 40px;
   color: white;
-  text-shadow: 6px 6px black;
+  text-shadow: 3px 3px black;
   -webkit-text-stroke: 1.5px black;
 }
 
 .homeMessage > h1 > span {
   color: #F8CC06;
+}
+
+.pageNotFound {
+  background-color: transparent;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  font-family: "Comfortaa", sans-serif;
+  color: #808080;
+  font-size: 0.8rem;
+  font-weight: 400;
+  right: 0;
+  bottom: -55px;
+  padding: 5px 25px;
+}
+
+@media (max-width: 768px) {
+  .container_top {
+    height: 50px;
+  }
+  .elements {
+    gap: 7px;
+    margin: 0 5%;
+  }
+  .elements > img {
+    width: 15px;
+  }
+  .errorCode {
+    font-size: 30px;
+    text-shadow: 3px 2px black;
+  }
+  .errorMessage {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+  .homeMessage {
+    gap: 15px;
+  }
+  .homeMessage > img {
+    width: 25px;
+  }
+  .homeMessage > h1 {
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+  }
+  .pageNotFound {
+    border-radius: 8px;
+    font-size: 0.6rem;
+    bottom: -40px;
+  }
 }

@@ -27,6 +27,7 @@ const Error404 = () => {
           <img src={arrow} alt="" />
         </div>
       </div>
+      <button className={styles.pageNotFound}>Page Not Found</button>
     </div>
   );
 };
