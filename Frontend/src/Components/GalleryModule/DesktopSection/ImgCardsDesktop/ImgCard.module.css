@@ -14,6 +14,7 @@
     height: calc(457px - 60px);
     /* Account for bottom bar height */
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .image {
@@ -28,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 7px;
+    padding: 0 3px;
 }
 
 .icons {

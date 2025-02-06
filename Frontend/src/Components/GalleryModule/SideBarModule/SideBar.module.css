@@ -7,17 +7,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 150px;
 }
 
 .mainContainer {
-    margin-top: 50px;
     border-radius: 3.7px;
     width: 99%;
     background: linear-gradient(180deg, rgba(230, 225, 253, 0.39) 0%, rgba(253, 215, 222, 0.39) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 87vh;
+    min-height: 87.7vh;
 }
 
 .listContainer {
@@ -95,4 +95,29 @@
 
 .listItem.active {
     transform: scale(1.1);
+}
+
+small {
+    font-size: 0.7em;
+}
+
+#copyright {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 19.3px;
+    font-weight: 400;
+    line-height: 21.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #BFBFBF;
+}
+
+#copyright small {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.15px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
